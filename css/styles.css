@@ -1,0 +1,92 @@
+html, body {
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  height: 100%; }
+
+.jumbotron {
+  background-color: transparent;
+  margin: 0; }
+  .jumbotron .btn.price {
+    background: linear-gradient(to right bottom, #00b491ff, #00f7c7ff);
+    color: #fff;
+    width: 200px;
+    padding: 2rem;
+    font-size: 2.5rem; }
+  .jumbotron p:first-of-type {
+    font-size: 2rem; }
+  .jumbotron input[type="submit"] {
+    border-radius: 10px !important; }
+
+#user_amount {
+  border-radius: 0 5px 5px 0; }
+
+.appended > select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #333; }
+
+#main {
+  width: 80%;
+  margin: auto; }
+  #main .tab {
+    height: 2.5rem;
+    line-height: 2.5rem; }
+    #main .tab_red {
+      background: linear-gradient(to right bottom, #db004aff, #ff4b88ff); }
+    #main .tab_green {
+      background: linear-gradient(to right bottom, #00b491ff, #00f7c7ff); }
+  #main .eachone {
+    overflow: hidden;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center; }
+    #main .eachone_red {
+      border: 3px solid #ff4b88ff; }
+    #main .eachone_green {
+      border: 3px solid #00f7c7ff; }
+    #main .eachone .fa-plus, #main .eachone .fa-minus {
+      margin: 0 0.4rem 0 0.8rem; }
+    #main .eachone .name {
+      margin-right: auto; }
+    #main .eachone .cost {
+      transform: translateX(100%);
+      font-size: 1.5rem;
+      transition: 0.4s ease-in-out; }
+    #main .eachone .btn-danger {
+      transform: translateX(100%);
+      transition: 0.4s ease-in-out;
+      padding: 2rem 1.25rem;
+      margin-left: 0.4rem; }
+      #main .eachone .btn-danger:focus {
+        box-shadow: none !important; }
+    #main .eachone:hover .cost {
+      transform: translateX(0%); }
+    #main .eachone:hover .btn-danger {
+      transform: translateX(0%); }
+
+footer .row {
+  justify-content: center; }
+  footer .row a {
+    font-size: 3rem;
+    color: #fff; }
+
+footer .rights span {
+  font-size: 0.6rem;
+  opacity: 0.5;
+  font-weight: 100; }
